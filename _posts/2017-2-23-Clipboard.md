@@ -1,8 +1,8 @@
 ---
 layout: post
 title: クリップボード
-tags:
-- java
+category: java
+tags: [java]
 ---
 
 
