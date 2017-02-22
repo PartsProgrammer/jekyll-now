@@ -1,15 +1,13 @@
 ---
 layout: post
-title: TestPost
+title: クリップボード
 tags:
 - java
 ---
 
 
-### 参考
-http://jekyllrb-ja.github.io/docs/templates/
 
-ClipboardController
+ClipboardController.java
 
 {% highlight Java  %}
 import java.util.Calendar;
