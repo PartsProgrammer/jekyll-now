@@ -4,14 +4,11 @@ title: TestPost
 ---
 
 <h4>カテゴリnewsの記事一覧</h4>
-<ul>
-{% for post in site.categories.news %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for category in  site.categories %}
+  <h4>{{ category[0] }}の記事一覧</h4>
+  <ul>
+  {% for post in site.categories.{{ category[0] }} %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
 {% endfor %}
-</ul>
-<h4>カテゴリjekyllの記事一覧</h4>
-<ul>
-{% for post in site.categories.jekyll %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
