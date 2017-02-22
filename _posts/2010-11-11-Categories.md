@@ -3,7 +3,7 @@ layout: post
 title: カテゴリ
 ---
 
-<h4>カテゴリnewsの記事一覧</h4>
+<h4>カテゴリ別記事一覧</h4>
 {% for category in  site.categories %}
   <h4>{{ category[0] }}の記事一覧</h4>
   <ul>
