@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} 窶錀 {% endif %}{{ site.name }} 窶錀 {{ site.description }}</title>
 
     {% include meta.html %}
 
@@ -35,12 +35,9 @@
     </div>
 
     <!-- side bar -->       
-    <SECTION id="category">
-        <H3><I class="fa fa-list"></I>カテゴリ</H3>
-        <UL>
-        </UL>
-        <I class="fa fa-hand-o-right"></I>
-     </SECTION>
+    <div id="side">
+        side
+     </div>
     
     <div id="main" role="main" class="container">
       {{ content }}
