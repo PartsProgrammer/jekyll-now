@@ -34,16 +34,18 @@
       </div>
     </div>
 
+    <!-- side bar -->       
+    <div id="side" class="clearfix">
+        <h2> タグ一覧 </h2>
+        {% include tag_cloud.html %}
+    </div>
+    
     
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
     
-    <!-- side bar -->       
-    <div id="side">
-        <h2> タグ一覧 </h2>
-        {% include tag_cloud.html %}
-     </div>
+    
 
     <div class="wrapper-footer">
       <div class="container">
