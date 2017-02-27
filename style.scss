@@ -335,6 +335,12 @@ width:200px;
 height:300px;
 }
 
+@media screen and (max-width:1280px)
+{
+#side {
+	width: 100%;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
