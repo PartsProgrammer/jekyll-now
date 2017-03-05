@@ -5,7 +5,7 @@ title: TestPost
 
 
 ### 参考
-http://jekyllrb-ja.github.io/docs/templates/
+<a href="http://jekyllrb-ja.github.io/docs/templates/"/>jekyll テンプレート</a>
 
 {% highlight Java  %}
 public class Test{
