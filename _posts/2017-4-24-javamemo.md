@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javaメモ
-tags:[Java]
+tags: [Java]
 ---
 
 <br>
