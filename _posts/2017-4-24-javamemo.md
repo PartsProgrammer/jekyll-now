@@ -5,6 +5,7 @@ tags:[java]
 ---
 
 <br>
+{% raw %}
 〇boolean
 ×bool
 〇 b = a += 5;
@@ -73,7 +74,7 @@ int value; // ok
 継承してもフィールドは別々（同名フィールドはクラスの型で区別）
 
 
-
+{% endraw %}
 
 
 
