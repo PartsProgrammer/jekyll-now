@@ -75,9 +75,17 @@ int value; // ok<br>
 継承してもフィールドは別々（同名フィールドはクラスの型で区別）<br>
 catch(スーパー)<br>
 catch(サブ)//到達不可能でコンパイルエラー<br>
-
-
-
+×try finally catch<br>
+return は専用の変数があると思え（値コピー、finallyで元の変数を変えても無意味）<br>
+try finally は1つのみ<br>
+エラー：プログラムからは対処しようがない、非検査Errorとサブ、実行環境に例外が発生したとき（メモリ不足、権限、接続）<br>
+例外：プログラムが対処できる<br>
+  検査例外  ：コンパイラが処理の記述を検査Exceptionとサブ（Runtimeを除く）<br>
+  非検査例外：コンパイラが処理の記述を検査しない(RuntimeExceptionとサブ)<br>
+起動パラメータなし→argsは長さ0の配列<br>
+〇List<String> list = new ArrayList<>();<br>
+static{} クラスを利用するときに一度だけ呼ばれる（例外発生時はExceptionInInitializerErrorに変換される）、static変数の初期化に使われる<br>
+実行対象のクラスファイルを発見できない→NoClassDefFoundError<br>
 {% endraw %}
 
 
