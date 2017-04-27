@@ -86,6 +86,20 @@ try finally は1つのみ<br>
 〇List<String> list = new ArrayList<>();<br>
 static{} クラスを利用するときに一度だけ呼ばれる（例外発生時はExceptionInInitializerErrorに変換される）、static変数の初期化に使われる<br>
 実行対象のクラスファイルを発見できない→NoClassDefFoundError<br>
+<br>
+クラス<br>
+String<br>
+  substring 0 a 1 b<br>
+  ×str.replace("aa", 'b');<br>
+  split 正規表現<br>
+  concat<br>
+  String a = null; a *= "null"; → "nullnull"<br>
+  <br>
+StringBuilder<br>
+  デフォルトで16文字分のバッファ<br>
+  new StringBuilder("abcde"); -> 16+5で21がcapacity<br>
+  append(CharSequence s, int start, int end) <br>
+  append(char[] str, int offset, int len) <br>
 {% endraw %}
 
 
