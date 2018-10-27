@@ -8,19 +8,7 @@ tags: [Java]
 
 
 {% highlight Java  %}
-/**
- * リストをマップに変換
- * 
- * @param <K>
- *            キーの型
- * @param <V>
- *            値の型
- * @param list
- *            値のリスト
- * @param keyMapper
- *            値からキーを取り出す方法
- * @return マップ（引数がnullの場合は空）
- */
+
 public static <K, V> Map<K, V> toMap(List<V> list, Function<V, K> keyMapper) {
 	Map<K, V> map = new HashMap<>();
 	// 引数が不正の場合は空のマップを返す
@@ -47,7 +35,7 @@ public static <K, V> Map<K, V> toMap(List<V> list, Function<V, K> keyMapper) {
 
 {% endhighlight %}
 
-使用例は以下のような感じ。
+使用例は以下のような感じ。Userは適当なクラスです。
 最近ようやくラムダ式が使えるようになりました。
 
 
